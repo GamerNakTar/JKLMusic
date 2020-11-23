@@ -1,0 +1,27 @@
+header {
+  background-color: #F1F1F1;
+  text-align: center;
+  padding: 20px;
+}
+
+.column-side {
+  background-color: red;
+  width: 15%;
+}
+
+.column-middle {
+  background-color: blue;
+  width: 70%;
+}
+
+@media screen and (max-width: 600px) {
+  .column.side, .column.mmiddle {
+    width: 100%;
+  }
+}
+
+.footer {
+  background-color: #F1F1F1;
+  text-align: center;
+  padding: 10px;
+}

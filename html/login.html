@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Abel" rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Big Shoulders Display' rel='stylesheet'>
+  <link rel="stylesheet" href="..\css\basic.css">
+  <style>
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  form {
+    margin: 0;
+    padding: 0;
+  }
+
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+
+  button:hover {
+    opacity: 0.8;
+  }
+
+  .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+  }
+
+  .container {
+    padding: 16px;
+    margin: 0;
+  }
+
+  span.psw {
+    float: right;
+    padding-top: 16px;
+    margin: 0;
+  }
+
+  /* Change styles for span and cancel button on extra small screens */
+  @media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+  }
+  section {
+    width: 100%;
+    position: absolute;
+    float: left;
+    top: 73px;
+    left: 0px;
+    padding: 0;
+    margin: 0;
+  }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="headertext">
+      <b>Login</b>
+    </div>
+    <div class="headerbar1">
+    </div>
+    <div class="headerbar2">
+    </div>
+    <div class="headerbar3">
+    </div>
+  </header>
+  <section>
+    <div class="cont5">
+      <form action="/action_page.php" method="post">
+        <div class="imgcontainer"></div>
+        <div class="container">
+          <label for="uname"><b>Username</b></label>
+          <input type="text" placeholder="Enter Username" name="uname" required>
+
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required>
+
+          <button type="submit">Login</button>
+          <label>
+            <input type="checkbox" checked="checked" name="remember"> Remember me
+          </label>
+        </div>
+
+        <div class="container">
+          <button type="button" class="cancelbtn">create your account</button>
+          <span class="psw">Forgot <a href="#">password?</a></span>
+        </div>
+      </form>
+    </div>
+  </section>
+</body>
+</html>

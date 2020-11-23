@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<!-- saved from url=(0054)file:///C:/Users/user/Downloads/20201117_template.html -->
+<html lang="en" dir="ltr"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link href="./20201117_fixed_footbar_files/css" rel="stylesheet">
+    <link href="./20201117_fixed_footbar_files/css(1)" rel="stylesheet">
+    
+    <style media="screen">
+      body {
+        margin: 0 0 0 0;
+        height: 100%;
+      }
+      header {
+        background-color: #2C454B;
+        height: 65px;
+        padding-left: 20px;
+        padding-top: 8px;
+      }
+      .headerbelow{
+        background-color: #5E5E5E;
+        height: 22px;
+        width: auto;
+        position: relative;
+        color: #E3E7E4;
+        padding-left:10px;
+      }
+      .headerbelowtext {
+        position: absolute;
+        animation-name: text-flow;
+        animation-duration: 15s;
+        animation-iteration-count: infinite;
+        font-family: 'Abel';
+      }
+      .headertext {
+        display: block;
+        position: relative;
+        left: 0px;
+        top: 0px;
+        font-size: 35px;
+        color: #FFFFFF;
+        font-family: 'Big Shoulders Display';
+        line-height: 35px;
+      }
+      .headerbar1 {
+        width: 20%;
+        height: 8px;
+        background-color: #AED9E4;
+        display: inline-block;
+        position: relative;
+        left: 0px;
+      }
+      .headerbar2{
+        width: 10%;
+        height: 8px;
+        background-color: #74ABB9;
+        display: inline-block;
+        position: relative;
+        left: 5px;
+      }
+      .headerbar3{
+        width: 1%;
+        height: 8px;
+        background-color: #50C1DD;
+        display: inline-block;
+        position: relative;
+        left: 8px;
+      }
+      nav {
+        width: 15%;
+        height: auto;
+        position: relative;
+        left: 0px;
+        float: left;
+        padding: 0 0 0 0;
+        margin: 0 0 0 0;
+      }
+      ul {
+        list-style-type: none;
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+        width: 100%;
+        background-color: #474A45;
+        font-family: "Big Shoulders Display";
+      }
+      li a {
+        display: block;
+        width: auto;
+        color: #FFFFFF;
+        padding: 8px 16px;
+        text-decoration: none;
+        width: 100%;
+        font-size: 18px;
+        background-color: #5E5E5E;
+      }
+      .idle {
+        animation-name: pulse-reverse;
+        animation-duration: 0.35s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+      }
+      .idle:hover {
+        color: #000000;
+        animation-name: pulse;
+        animation-duration: 0.35s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+      }
+      section {
+        width: 85%;
+        height: 500px;
+        position: relative;
+        right: 0px;
+
+        float: right;
+      }
+      .active {
+        background-color: #F4FAF1;
+        color: #6CC274;
+        margin-left: 10%;
+      }
+      .cont4 {
+        position: relative;
+        top: 70px;
+        text-align: center;
+
+        color: #FFFFFF;
+        font-size: 25px;
+        font-family: "Times New Roman", Times, serif;
+      }
+      .cont5 {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background-image: linear-gradient(to bottom right, #D4FAC0, #8FC7CF, #458891);
+      }
+      .main_jacket_location {
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        top: 8%;
+        left: 100px;
+        background-color: #FFFFFF
+      }
+      .seq_jacket_location {
+        width: 30px;
+        height: 30px;
+        position: relative;
+        top: 7.5px;
+        left: 7.5px;
+        background-color: #FFFFFF
+      }
+      .main_title_location {
+        position: inherit;
+        left: 115px;
+        top: 10px;
+        font-size: 45px;
+        color: white;
+        font-family: 'Big Shoulders Display'
+      }
+      .seq_title_location {
+        position: inherit;
+        left: 38px;
+        top: px;
+        font-size: 15px;
+        color: #FFFFFF;
+        font-family: 'Big Shoulders Display'
+      }
+      .main_artist_location {
+        position: inherit;
+        left: 115px;
+        top: 65px;
+        font-size: 18px;
+        color: white;
+        font-family: 'Big Shoulders Display'
+      }
+      .seq_artist_location {
+        position: inherit;
+        left: 38px;
+        top: 1px;
+        font-size: 11px;
+        color: #FFFFFF;
+        font-family: 'Big Shoulders Display'
+      }
+      .fixed_footbar {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 45px;
+        background-color: #5E5E5E;
+        color: #FFFFFF;
+        text-align: left;
+      }
+      @keyframes pulse {
+        from {background-color: #5E5E5E; margin-left: 0%;}
+        to {background-color: #F4FAF1; margin-left: 10%;}
+      }
+      @keyframes pulse-reverse {
+        from {background-color: #F4FAF1; margin-left: 10%;}
+        to {background-color: #5E5E5E; margin-left: 0%;}
+      }
+      @keyframes text-flow {
+        0% {left: 0%; opacity: 0%}
+        10% {opacity: 100%}
+        90% {opacity: 100%}
+        100% {left: 85%; opacity: 0%}
+      }
+
+      #linear {animation-timing-function: linear;}
+
+    </style>
+  </head>
+  <body>
+    <header>
+
+      <div class="headertext">
+        <b>JKL Music</b>
+      </div>
+      <div class="headerbar1">
+      </div>
+      <div class="headerbar2">
+      </div>
+      <div class="headerbar3">
+      </div>
+    </header>
+    <div class="headerbelow">
+      <div class="headerbelowtext" id="linear">
+        Now Playing "Title_name"
+      </div>
+    </div>
+    <section>
+      <div class="cont5">
+        <div class="main_jacket_location">
+          <div class="main_title_location">
+            "Title_name"
+          </div>
+          <div class="main_artist_location">
+            "Artist_name"
+          </div>
+          "Jacket"
+        </div>
+        <div class="cont4">
+          Main page.
+        </div>
+      </div>
+    </section>
+    <nav>
+      <ul>
+        <li><a href="file:///C:/Users/user/Downloads/main.html" class="active">main</a></li>
+        <li><a href="file:///C:/Users/user/Downloads/happy.html" class="idle">Happiness</a></li>
+        <li><a href="file:///C:/Users/user/Downloads/sad.html" class="idle">Sadness</a></li>
+        <li><a href="file:///C:/Users/user/Downloads/boring.html" class="idle">Boredom</a></li>
+        <li><a href="file:///C:/Users/user/Downloads/longing.html" class="idle">Longing</a></li>
+        <li><a href="file:///C:/Users/user/Downloads/refreshing.html" class="idle">Refreshing</a></li>
+      </ul>
+    </nav>
+    <div class="fixed_footbar">
+      <div class="seq_jacket_location">
+        <div class="seq_title_location">
+          "Title_name"
+        </div>
+        <div class="seq_artist_location">
+          "Artist_name"
+        </div>
+        <div class="button_pause">
+          .
+        </div>
+      </div>
+    </div>
+  
+
+</body></html>
